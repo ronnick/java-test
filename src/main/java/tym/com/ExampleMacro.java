@@ -1,18 +1,18 @@
 package tym.com;
 
-import java.util.Map;
-import java.util.List;
-import java.util.Iterator;
-
-import com.atlassian.renderer.RenderContext;
-import com.atlassian.renderer.v2.macro.BaseMacro;
-import com.atlassian.renderer.v2.macro.MacroException;
-import com.atlassian.renderer.v2.RenderMode;
-import com.atlassian.confluence.pages.PageManager;
 import com.atlassian.confluence.pages.Page;
+import com.atlassian.confluence.pages.PageManager;
 import com.atlassian.confluence.spaces.SpaceManager;
 import com.atlassian.confluence.user.AuthenticatedUserThreadLocal;
+import com.atlassian.renderer.RenderContext;
+import com.atlassian.renderer.v2.RenderMode;
+import com.atlassian.renderer.v2.macro.BaseMacro;
+import com.atlassian.renderer.v2.macro.MacroException;
 import com.atlassian.user.User;
+
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
 
 /**
  * This very simple macro shows you the very basic use-case of displaying *something* on the Confluence page where it is used.
