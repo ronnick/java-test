@@ -6,7 +6,7 @@ import java.io.FilenameFilter;
 public class DirList {
     public String[] getFileList(String filter) {
         String[] fileList = null;
-        File path = new File(".");
+        File path = new File("D:\\");
         try {
             if (filter.length() == 0) {
                 fileList = path.list();

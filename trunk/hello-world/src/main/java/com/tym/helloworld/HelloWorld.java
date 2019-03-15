@@ -8,10 +8,15 @@ public class HelloWorld {
         System.out.println(object.getClass());
 
         DirList dl = new DirList();
+        String[] fileList = null;
         if (args.length == 0) {
-            dl.getFileList("");
+            fileList = dl.getFileList("");
         } else {
-            dl.getFileList(args[0]);
+            fileList = dl.getFileList(args[0]);
+        }
+
+        for (String name : fileList){
+            System.out.println(name);
         }
     }
 }
