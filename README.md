@@ -5,7 +5,7 @@ This is my java learning and practice repository.
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Linux](https://travis-ci.org/Microsoft/MMdnn.svg?branch=master)](https://travis-ci.org/Microsoft/MMdnn)
 
-```
+```python
 pip install mmdnn
 
 ```
